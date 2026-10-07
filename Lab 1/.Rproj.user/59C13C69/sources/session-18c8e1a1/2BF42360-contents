@@ -1,7 +1,7 @@
 ---
 title: "PSTAT 5LS Lab 1"
 author: "Your Name Here"
-date: "Fall 2025"
+date: "Fall 2026"
 output: html_document 
 ---
 
@@ -82,7 +82,7 @@ hist(penguins$flipper_length_mm,
 ```
 
 ```{r tryIt9, error = T}
-# Run this code chunk to make a side-by-side boxplot of penguins body mass by the categorical variable `species`
+# Run this code chunk to make a side-by-side boxplot of penguins bill length by the categorical variable `species`
 boxplot(penguins$bill_length_mm ~ penguins$species,
         main = "Box Plots of Penguin Bill Length by Species",
         ylab = "Bill Length (mm)",
